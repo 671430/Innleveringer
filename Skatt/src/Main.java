@@ -1,4 +1,6 @@
 
+
+
 import java.util.Scanner;
 
 public class Main {
@@ -14,8 +16,8 @@ public class Main {
 			
 		if (inntekt < 164100) {
 			
-			double a = inntekt*1;
-			System.out.println(a);
+			double a = inntekt*0;
+			System.out.println(a+" kroner må du betale i skatt når du har "+inntekt+" i bruttolønn");
 			
 		} else if (inntekt > 164100 && inntekt < 230950){
 			
