@@ -8,7 +8,8 @@ public class Main {
 		String heltall = JOptionPane.showInputDialog("Skriv inn heltall: ");
 		int tall = Integer.parseInt(heltall);
 		int fakultet = tall;
-		
+
+		// LEGGE INN IF
 		for (int i = tall; i > 1; i--) {
 			
 			fakultet = fakultet*(i-1);
