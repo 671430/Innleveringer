@@ -6,6 +6,8 @@
 
 			public static void main(String[] args) {
 				
+				
+				
 				for (int i = 1; i <= 10; i++) {
 				
 					
@@ -32,9 +34,9 @@
 				} else if (karakter >= 90 && karakter <= 100) {
 					JOptionPane.showInternalMessageDialog(null, melding + " Karakter A");
 					
-				} else {
-						JOptionPane.showInternalMessageDialog(null, "Ugyldig Poengsum");
-				
+				} else if (karakter < 0 || karakter > 100) {
+					JOptionPane.showInternalMessageDialog(null, "Ugyldig Poengsum");
+					i--;
 					
 						}
 					}
